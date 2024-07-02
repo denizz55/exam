@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+
+}
+
+form{
+    font-size: 24px;
+}
+header{
+    background-color: antiquewhite;
+    width: 100%;
+    height: 200px;
+}
+header h1{
+    padding-top: 50px;
+}
+header img{
+    padding-right: 150px;
+}
+ul{
+    padding-right: 1000px;
+    display: flex;
+    justify-content: center;
+}
+footer{
+    width: 100%;
+    text-align: center;
+    height: 200px;
+    background-color: antiquewhite;
+}
+
+footer h1{
+    padding-top: 50px;
+    font-size: 24px;
+}
+
+.form_state{
+    border: 1px solid ;
+    width: 500px;
+ 
+}
+.forma{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    font-size: 32px;
+    text-align: center;
+}
+h3{
+    font-size: 32px;
+}
+.your_state{
+    text-align: center;
+    font-size: 24px;    
+    border: 1px solid black;
+}
+
+.predloj{
+    font-size: 32px;
+    text-decoration: none;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+.button24 {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: .5em 2em;
+    outline: none;
+    border-width: 2px 0;
+    border-style: solid none;
+    border-color: #FDBE33 #000 #D77206;
+    border-radius: 6px;
+    background: linear-gradient(#F3AE0F, #E38916) #E38916;
+    transition: 0.2s;
+    width: 350px;
+    height: 100px;
+    font-size: 24px
+  } 
+.button24:hover { background: linear-gradient(#f5ae00, #f59500) #f5ae00; }
+.button24:active { background: linear-gradient(#f59500, #f5ae00) #f59500; }

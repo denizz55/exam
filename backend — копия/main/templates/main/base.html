@@ -1,0 +1,26 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <ul>
+        <img src="{% static 'img/logo.png' %}" alt="">
+        <h1>Нарушениям.Нет</h1>
+        </ul>
+    </header>
+
+    {% block content %} {% endblock %}
+
+    <footer>
+        <h1>Будь ответственным гражданином! <br>
+            @Нарушениям.Нет <br>
+            2023-2024</h1>
+    </footer>
+</body>
+</html>
